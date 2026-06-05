@@ -1,0 +1,10 @@
+{
+  "symbol": "BTCUSDT",
+  "intervalMinutes": 5,
+  "orderSizeBtc": "0.001",
+  "minUsdtReserve": 100,
+  "maxDailyTrades": 20,
+  "candleGranularity": "5min",
+  "candleLimit": 30,
+  "limitPriceBuffer": 1.002
+}

@@ -1,0 +1,17 @@
+{
+  "name": "market-data-mcp-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "market-data-mcp-local": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-tools.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^3.24.0"
+  }
+}

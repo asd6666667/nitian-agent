@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "market-data": {
+      "command": "node",
+      "args": ["C:/Users/86158/Desktop/逆天/market-data-mcp/server.js"],
+      "env": {
+        "NODE_USE_ENV_PROXY": "1",
+        "HTTP_PROXY": "http://127.0.0.1:7897",
+        "HTTPS_PROXY": "http://127.0.0.1:7897"
+      }
+    },
+    "bitget": {
+      "command": "npx",
+      "args": ["-y", "bitget-mcp-server", "--paper-trading", "--modules", "spot,futures,account"],
+      "env": {
+        "BITGET_API_KEY": "bg_1fcf33760fa6961a1cc1ad1a6d6d63a0",
+        "BITGET_SECRET_KEY": "2f27a7398a085155655cc16bbe1635e14cd21db32476ccb2608d37f8016a1527",
+        "BITGET_PASSPHRASE": "zxc198323",
+        "NODE_USE_ENV_PROXY": "1",
+        "HTTP_PROXY": "http://127.0.0.1:7897",
+        "HTTPS_PROXY": "http://127.0.0.1:7897"
+      }
+    }
+  }
+}
