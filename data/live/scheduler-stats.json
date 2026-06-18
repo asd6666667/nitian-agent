@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-06-18T11:24:59.776Z",
+  "symbol": "BTCUSDT",
+  "strategy": {
+    "id": "harness_1781781539501",
+    "name": "Harness Auto BTC (5%)",
+    "type": "autonomous",
+    "symbol": "BTCUSDT",
+    "summary": "harness 自主测试: 5% 仓位 + 5% 止损 + 8% 止盈",
+    "category": "USDT-FUTURES",
+    "usePerception": true,
+    "leverage": 2,
+    "marginMode": "crossed",
+    "positionPct": 20,
+    "risk": {
+      "stopLossPct": 4,
+      "takeProfitPct": 8,
+      "maxDrawdownPct": 10
+    }
+  },
+  "ticksRequested": 8,
+  "ticksCompleted": 4,
+  "intervalSec": 30,
+  "stats": {
+    "totalTicks": 7,
+    "totalExecutions": 0,
+    "startedAt": "2026-06-18T11:13:44.061Z",
+    "lastTickAt": "2026-06-18T11:23:30.007Z"
+  },
+  "tradesRecorded": 3
+}
